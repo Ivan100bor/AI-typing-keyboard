@@ -1,4 +1,7 @@
-		DisableFlagsInUseLine: true,
+//detecting typing keys and sending messages
+
+
+DisableFlagsInUseLine: true,
 		ValidArgs:             []string{"bash", "zsh", "fish", "powershell"},
 		Args:                  cobra.ExactArgs(1),
 		RunE: func(cmd *cobra.Command, args []string) error {
